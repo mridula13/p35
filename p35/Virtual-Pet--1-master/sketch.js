@@ -10,9 +10,9 @@ var name;
 
 function preload()
 {
-  sadDog = loadImage("Virtual-Pet--1-master/Dog.png");
-  milkImg = loadImage("Virtual-Pet--1-master/Milk.png");
-  happyDog = loadImage("Virtual-Pet--1-master/happy dog.png");
+  sadDog = loadImage("p35/Virtual-Pet--1-master/Dog.png");
+  milkImg = loadImage("p35/Virtual-Pet--1-master/Milk.png");
+  happyDog = loadImage("p35/Virtual-Pet--1-master/happy dog.png");
 }
 
 function setup() 
@@ -104,3 +104,4 @@ function addFoods()
   })
 
 }
+

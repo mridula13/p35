@@ -10,9 +10,9 @@ var name;
 
 function preload()
 {
-  sadDog = loadImage("Dog.png");
-  happyDog = loadImage("happy dog.png");
-  milkImg = loadImage("milk.png");
+  sadDog = loadImage("Virtual-Pet--1-master/Dog.png");
+  milkImg = loadImage("Virtual-Pet--1-master/Milk.png");
+  happyDog = loadImage("Virtual-Pet--1-master/happy dog.png");
 }
 
 function setup() 
@@ -102,4 +102,5 @@ function addFoods()
   database.ref('/').update({
     Food:foodS
   })
+
 }
